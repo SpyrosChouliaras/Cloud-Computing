@@ -1,0 +1,19 @@
+{%load static %}
+<html>
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/myapp.css' %}">
+	</head>
+<body>
+<div>
+<h1>Characters</h1>
+</div>
+{% for character in characters %}
+Name: {{character.name}} <BR>
+Character: {{character.location}} <BR>
+Vehicle: {{character.vehicle}} <BR>
+Human: {{character.human}} <p>
+{% endfor %}
+</body>
+</html>
