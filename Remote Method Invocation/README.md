@@ -1,4 +1,6 @@
 
-# Using oAuth with Django
+# Remote Method Invocation (RMI) with Python
 
-OAuth 2.0 is the industry-standard protocol for authorization. In this tutorial we will setup the OAuth v2 in Django, then we will create a simple application to authorize our users to access resources (our data).
+-	Pyro4 is a Python package developed to support RMI in Python, and we will develop different applications. 
+- Pyro can be used to distribute and integrate various kinds of resources or responsibilities including computational (hardware) resources (CPU, storage, printers), informational resources (data, privileged information) and business logic (departments, domains).
+- Pyro enables code to call methods on objects even if that object is running on a remote machine
